@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Ajuste en la etiqueta html -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <!-- Enlace a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul class="horizontal-menu">
+            <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+            <li><a href="#" onclick="mostrarSeccion('sobre-mi')">Sobre mí</a></li>
+            <li><a href="#" onclick="mostrarSeccion('habilidades')">Habilidades</a></li>
+            <li><a href="#" onclick="mostrarSeccion('contacto')">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h1>Bienvenido a mi portafolio</h1>
+        <p>Esta es la página de inicio de mi portafolio.</p>
+    </section>
+    
+    <!-- Sección sobre mí -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy Marivel Alvarado. Me gradué como perito contador con orientación en computación en 2017. Me considero una persona responsable, empática, amable y con muchas ganas de superación. Me apasiona explorar el mundo de la tecnología y siempre estoy en busca de nuevos retos. Empecé a trabajar en febrero de 2024 como parte del equipo fundador de FASES IO, una iniciativa de aprendizaje menstrual gamificado a través de Whatsapp, donde desarrollé habilidades que han enriquecido mis conocimientos. Actualmente, estudio tecnología, con el objetivo de encontrar oportunidades que me permitan abrir nuevas puertas en mi carrera profesional. Mi meta es cumplir mis sueños y ser un ejemplo para las futuras generaciones. Aspiro a ser una mujer innovadora, apasionada por explorar el mundo tecnológico, visualizando el futuro como algo simple, pero lleno de sorpresas.</p>
+    </section>
+    
+    <!-- Sección de habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="habilidades-lista-horizontal">
+            <li>
+                <i class="fab fa-html5"></i> <!-- Ícono para HTML -->
+                <span>HTML</span>
+            </li>
+            <li>
+                <i class="fab fa-css3-alt"></i> <!-- Ícono para CSS -->
+                <span>CSS</span>
+            </li>
+            <li>
+                <i class="fab fa-js"></i> <!-- Ícono para JavaScript -->
+                <span>JavaScript</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas contactarme, puedes hacerlo a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: <a href="mailto:maribel.alvarado848@gmail.com">maribel.alvarado848@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/marivel-alvarado/" target="_blank">Mi LinkedIn</a></li>
+            <li>Cel: 53848723</li>
+        </ul>
+    </section>
+
+    <!-- Sección de imagen y nombre -->
+    <div class="mi-portafolio">
+        <div class="container-imagen">
+            <main>
+                <h2>Elvia Marivel Alvarado Ramos</h2>
+            </main>
+            <img src="img/fotomarivel.jpg" alt="Foto de Marivel" class="imagen-redonda">
+            <a href="#" class="btn-programadora">Programadora Junior</a>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="js/portafolio.js"></script>
+
+</body>
+</html>

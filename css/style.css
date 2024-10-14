@@ -1,0 +1,89 @@
+body {
+  background-color: #329b8d; /* Color de fondo sólido */
+  color:  white; /* Color del texto gris oscuro */
+  font-family: Arial, sans-serif; /* Fuente principal */
+}
+
+/* Imagen del portafolio */
+.mi-portafolio img {
+   width: 25px; /* Ancho fijo */
+   height: 325px; /* Mantiene la proporción de la imagen */
+   border-radius: 20px; /* Esquinas redondeadas */
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+   float: left; /* Imagen flotante a la izquierda */
+   margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.container-imagen {
+    position: relative; /* Posiciona el botón en relación a la imagen */
+    display: inline-block; /* Contiene la imagen y el botón juntos */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; /* Texto centrado en los encabezados */
+  color: #333; /* Color oscuro */
+  
+}
+.h2{
+  float: left;
+}
+
+/* Estilo del menú horizontal */
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinea los ítems en horizontal */
+  justify-content: center; /* Centra los ítems horizontalmente */
+  background-color: #333333; /* Fondo del menú */
+}
+
+.horizontal-menu li {
+   margin: 0 15px; /* Espacio entre los ítems del menú */
+}
+
+.horizontal-menu li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.horizontal-menu li a:hover {
+   background-color: #575757; /* Cambio de color al pasar el cursor */
+   border-radius: 5px; /* Bordes redondeados al hacer hover */
+}
+
+/* Botón estilo Programadora */
+.btn-programadora {
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar color */
+}
+
+.btn-programadora:hover {
+    background-color: #575757; /* Cambio de color al pasar el cursor */
+}
+
+/* Márgenes entre secciones */
+section {
+  margin-bottom: 40px; /* Espacio entre secciones */
+}
+.horizontal-menu li {
+      margin: 10px 0; /* Espacio entre ítems en vertical */   }
+
+  
+      
+      .mi-portafolio img {
+        width: 100%; /* Imagen más flexible en pantallas pequeñas */
+        max-width: 300px; /* Límite de tamaño máximo */
+        margin-right: 0; /* Elimina el margen derecho */
+        margin-bottom: 20px; /* Añade espacio debajo en móviles */
+    }
